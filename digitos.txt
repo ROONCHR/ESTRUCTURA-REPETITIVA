@@ -1,0 +1,15 @@
+#include <iostream>      // Determine la cantidad de dígitos que tiene un número positivo
+using namespace std;
+int main(){
+	int  numero, cantv=1;
+	cout<<"ingrese un numero: ";
+	cin>>numero;
+	while(numero>9){
+		numero=numero/10;
+		cantv++;
+		
+	}
+	cout<<"el numero tiene: "<<cantv<<" digitos";
+	
+	return 0;
+}
