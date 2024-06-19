@@ -1,0 +1,13 @@
+#include <iostream>      // Leer números por teclado hasta introducir uno negativo
+using namespace std;
+int main(){
+	int numero;
+	cout<<"ingresa un numero: ";
+	cin>>numero;
+	while(numero>=0){
+		cout<<"ingresa un numero: ";
+		cin>>numero;
+	}
+	
+	return 0;
+}
